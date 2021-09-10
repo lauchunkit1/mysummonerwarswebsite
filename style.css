@@ -1,0 +1,83 @@
+body{
+    background-color:black
+}
+
+#navbar{
+    background-color:white;
+    height: 10vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#nav a{
+    text-decoration: crimson;
+    font-size: 35px;
+}
+
+#navbar a:hover{
+    color: darkgreen;
+}
+
+img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sameimage{
+    height: 300px;
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+
+.scrollimages{
+    height: 300px;
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+.battleimages{
+    height: 300px;
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1, h3{
+      color: red;
+  }
+
+  h4{
+      color: red;
+  }
+
+  
